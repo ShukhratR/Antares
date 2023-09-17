@@ -12,7 +12,4 @@ public class JovanaClass {
     public void itIsLate(){
         System.out.println("Late night practice");
     }
-
-
-    // working on it
 }
