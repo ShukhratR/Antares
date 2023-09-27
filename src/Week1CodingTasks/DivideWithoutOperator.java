@@ -11,8 +11,8 @@ public class DivideWithoutOperator {
         int count = 0;
 
         if (num2 <= 0){
-            System.out.println("Invalid entry can not be Zero or negative");
-            return;
+            System.err.println("Invalid entry can not be Zero or negative");
+            System.exit(1);
         }
 
         while (num1 >= num2){
