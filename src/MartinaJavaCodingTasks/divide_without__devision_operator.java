@@ -2,12 +2,23 @@ package MartinaJavaCodingTasks;
 
 public class divide_without__devision_operator {
 
-    public static void main(String[] args) {
+    public static void Divide(int num1, int num2) {
+        int count = 0;
 
-
-
-
-
+        if (num2 <= 0) {
+            System.out.println("Invalid entry can not be 0");
+            return;
+        }
+        while (num1 >= num2) {
+            count++;
+            num1 -= num2;
+        }
+        System.out.println("result = " + count + " reminder = " + num1);
     }
+
+    public static void main(String[] args) {Divide(6,2);}
+
+
 }
+
  // Write a method that can divide 2 numbers without using / operator
