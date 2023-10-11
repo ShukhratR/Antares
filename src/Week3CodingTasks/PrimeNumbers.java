@@ -12,8 +12,10 @@ public class PrimeNumbers {
             return false;
         }
 
-        if (number % 1 == 0 && number % number == 0 && number % 2 == 0){
-            return false;
+        for (int i = 2; i < number ; i++) {
+            if (number % i == 0){
+                return false;
+            }
         }
         return true;
     }
