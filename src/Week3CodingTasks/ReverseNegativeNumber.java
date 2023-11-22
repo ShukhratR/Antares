@@ -7,18 +7,19 @@ public class ReverseNegativeNumber {
 
     public static int reverseNegativeNumber(int number){
 
-//     int result = Math.abs(number);
-//     return result;
+        int rev_num = 0;
 
-        if (number < 0)
-            number = -number;
-
-        return number;
+        while(number > 0){
+            rev_num = rev_num * 10 + number % 10;
+            number = number / 10;
+        }
+        return rev_num;
     }
 
 
     public static void main(String[] args) {
-        System.out.println(reverseNegativeNumber(-99));
+
+        System.out.println(reverseNegativeNumber(1234));
     }
 
 

@@ -4,8 +4,6 @@ public class PrimeNumbers {
 
 //    1. Numbers -- Prime Number
 //    Write a method that can check if a number is prime or not
-
-
     public static boolean isPrimeNumber(int number){
 
         if (number < 2){
@@ -19,7 +17,6 @@ public class PrimeNumbers {
         }
         return true;
     }
-
 
     public static void main(String[] args) {
 

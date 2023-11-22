@@ -4,7 +4,6 @@ public class SwapNumbers {
 
     // Swap variables value's without using third variable
 
-
     public static void SwapNumbers(int a, int b){
 
         a = a + b;
